@@ -1,0 +1,38 @@
+&control
+  calculation = 'bands'
+  prefix = 'mos2bl'
+  outdir = './tmp'
+  pseudo_dir = './pseudo'
+  verbosity = 'high'
+/
+&system
+  ibrav = 4
+  a = 3.182
+  c = 25.0
+  nat = 6
+  ntyp = 2
+  ecutwfc = 50.0
+  ecutrho = 400.0
+  nbnd = 34
+  occupations = 'fixed'
+/
+&electrons
+  diago_full_acc = .true.
+/
+ATOMIC_SPECIES
+Mo  95.95  Mo.pbe-spn-kjpaw_psl.1.0.0.UPF
+S   32.06  S.pbe-n-kjpaw_psl.1.0.0.UPF
+ATOMIC_POSITIONS (crystal)
+Mo  0.333333333  0.666666667  0.377000
+S   0.666666667  0.333333333  0.439400
+S   0.666666667  0.333333333  0.314600
+Mo  0.666666667  0.333333333  0.623000
+S   0.333333333  0.666666667  0.685400
+S   0.333333333  0.666666667  0.560600
+K_POINTS (crystal)
+5
+0.000000  0.000000  0.0  1.0
+0.166667  0.166667  0.0  1.0
+0.200000  0.200000  0.0  1.0
+0.250000  0.250000  0.0  1.0
+0.333333  0.333333  0.0  1.0

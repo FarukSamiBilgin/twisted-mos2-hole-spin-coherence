@@ -1,0 +1,6 @@
+&projwfc
+  prefix = 'mos2bl'
+  outdir = './tmp'
+  lsym = .false.
+  filproj = 'proj'
+/

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Twisted bilayer MoS2 cannot talk to light: a Gamma-valley hole spin memory and its isotope-purification coherence budget"
+authors:
+  - family-names: Bilgin
+    given-names: Faruk Sami
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0001-9064-4410"
+type: software
+license: MIT
+date-released: 2026-11-15
+url: "https://www.alphaxiv.org/abs/2611.twisted-mos2-hole-spin-coherence"
+repository-code: "https://github.com/FarukSamiBilgin/twisted-mos2-hole-spin-coherence"

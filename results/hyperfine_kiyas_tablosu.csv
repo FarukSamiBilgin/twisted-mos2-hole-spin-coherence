@@ -1,0 +1,14 @@
+﻿malzeme,tur,f_spinli,N_cekirdek,sigma_ueV,sigma_mT,T2_yildiz_ns,T2_yildiz_us,kaynak
+dogal MoS2 [iyimser],"hesap (bu calisma, theta=2.0)",0.2547,106 Mo + 212 S,0.007757,0.067,84.86,0.08486,continuum (Angeli-MacDonald param.) + A: Avdeev-Smirnov 2019
+98Mo32S2 [iyimser],"hesap (bu calisma, theta=2.0)",0.0002,106 Mo + 212 S,0.0002181,0.001884,3018,3.018,continuum (Angeli-MacDonald param.) + A: Avdeev-Smirnov 2019
+dogal MoS2 [merkez],"hesap (bu calisma, theta=2.0)",0.2547,106 Mo + 212 S,0.01551,0.134,42.43,0.04243,continuum (Angeli-MacDonald param.) + A: Avdeev-Smirnov 2019
+98Mo32S2 [merkez],"hesap (bu calisma, theta=2.0)",0.0002,106 Mo + 212 S,0.0004362,0.003768,1509,1.509,continuum (Angeli-MacDonald param.) + A: Avdeev-Smirnov 2019
+dogal MoS2 [kotumser],"hesap (bu calisma, theta=2.0)",0.2547,106 Mo + 212 S,0.1635,1.412,4.026,0.004026,continuum (Angeli-MacDonald param.) + A: Avdeev-Smirnov 2019
+98Mo32S2 [kotumser],"hesap (bu calisma, theta=2.0)",0.0002,106 Mo + 212 S,0.004585,0.03961,143.6,0.1436,continuum (Angeli-MacDonald param.) + A: Avdeev-Smirnov 2019
+"98Mo32S2 [merkez, kalinti f=9e-06]",hesap (zenginlestirme hedefi),9.4e-06,106 Mo + 212 S,9.402e-05,-,7001,7.001,ayni model; kalinti spinli izotop taramasi
+"98Mo32S2 [merkez, kalinti f=1e-06]",hesap (zenginlestirme hedefi),9.7e-07,106 Mo + 212 S,3.023e-05,-,2.177e+04,21.77,ayni model; kalinti spinli izotop taramasi
+"dogal GaAs (lateral QD, elektron)",deneysel referans,1.0,-,-,-,10,0.01,"Petta et al., Science 309, 2180 (2005) - hyperfine-sinirli"
+"dogal Si (Si/SiGe QD, elektron; %4.7 29Si)",deneysel referans,0.047,-,-,-,1000,1,"Kawakami et al., Nat. Nanotech. 9, 666 (2014) ~1 us"
+"28Si (800 ppm 29Si, MOS QD)",deneysel referans,8e-4,-,-,-,1.2e+05,120,"Veldhorst et al., Nat. Nanotech. 9, 981 (2014) T2*=120 us"
+"28Si (800 ppm, Si/SiGe EDSR)",deneysel referans,8e-4,-,-,-,2e+04,20,"Yoneda et al., Nat. Nanotech. 13, 102 (2018) T2*=20 us; YUK GURULTUSU sinirli (hyperfine degil)"
+GaAs (yontem dogrulama: ayni formul),hesap-kontrol,1.0,1e6,0.101,0.869,6.54,0.00654,A~90 ueV (Coish-Baugh 2009); deneysel ~10 ns ile kiyasla
